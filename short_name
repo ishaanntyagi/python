@@ -1,0 +1,9 @@
+name=input("ENTER THE STRING")
+name=name.title()
+l=name.split()
+length=len(l)
+short_name=""
+for i in range(0,length-1):
+    short_name=short_name+l[i][0]+" "
+short_name+=l[length-1]
+print(short_name)
