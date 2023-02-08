@@ -1,0 +1,325 @@
+# sum = 3.5//2
+# print(sum)
+
+# print(2**3**2)
+
+# print(3%2)
+# print(10%5)
+# print(5%3)
+# print(11%10)
+# print(10%-3)
+# print(-20%3)
+# print(-10%-3)
+# print(-9%4)
+# print(3//-2)
+# print(9%-4)
+
+# print((-9/2)**(8/3))
+# print((-6/6)*(-4/5)+(-9))
+# # print(3%-2*5/2//5+2**3/2-3**2)
+# # print(4%2*4**3//5+3/2%-1)
+
+
+# x=20
+# y=20
+# print(id(x))
+# print(id(y))
+# y=y+10
+# print(id(x))
+# print(id(y))
+
+
+# a=256
+# b=256
+# print(id(a))
+# print(id(b))
+# a=a+20
+# print(id(a))
+# print(id(b))
+# b=276
+# print(id(a))
+# print(id(b))
+
+# a=int(input("enter the number:"))
+# b=int(input("enter the number:"))
+# sum=a+b
+# print(sum)
+#
+# c=eval(input("enter the number"))
+# d=eval(input("enter the number"))
+# print(a+b)
+
+# sec=eval(input("enter the seconds"))
+# hours=sec//3600
+# mins=sec%3600
+# left_sec=mins//60
+# print("the total hours:" ,hours)
+# print("the total mins:",mins)
+# print("the total secs left are:" ,left_sec)
+
+
+# money=eval(input("ENTER THE MONEY YOU WANT TO WITHDRAW"))
+# two_th=money//2000
+# five=two_th%2000
+# hund=
+# print("the number of 2000 notes",two_th)
+# print("the no of 500 notes",five)
+# print("the number of 100 notes",hund)
+
+# x=10
+# print(type(x))
+# y=true
+# print(type())
+
+
+
+# x=5 and 7
+# print(x)
+# y=0 and 7
+# print(y)
+# z=7 or 5
+# print(z)
+# st="okay" and "notokay"
+# print(st)
+# st1="therefore" or "since"
+# print(st1)
+# st2="0" and "notokay"
+# print(st2)
+# print(5&11)
+# print(5|11)
+# print(5^11)
+# print(-5&11)
+# print(-5|11)
+# print(-5^11)
+#  print(not 5)
+
+
+
+# n=int(input("enter the number you want to check"))
+# l1=[12,3,4,5,67,7,88,8,9,909,0,]
+# if(n in l1):
+#     print("PRESENT IN THE LIST")
+# else:
+#     print("not present in the list")
+#
+# x=500
+# y=500
+# # print(x is not y)
+# print(x == y)
+
+# num=eval(input("enter the number0_0"))
+# if(num>0):
+#     print("num positive")
+# elif(num==0):
+#     print("num is 0")
+# elif(num<0 ):
+#     print("num is negative")
+
+
+# num1=eval(input("enter the number"))
+# num2=eval(input("enter the number"))
+# num3=eval(input("enter the number"))
+# # if(num1>num2):
+#     print("num1 is greater than 2")
+# elif(num2<num1)
+#     print("num 2 is greater than num1")
+# elif(num1>num3)
+#     print(num1>num3)
+# elif(num3>num1)
+#     print("num3 is greater than num1")
+# elif(num2>num3)
+#     print("num 3 is greater than num2")
+# elif(num3<num2)
+#     print("num 3 is greater than num2"
+# if(num1>num2>num3):
+#     print("num 1 is the greatest")
+# elif(num2>num1>num3):
+#     print("num 2 is greatest")
+# elif(num3>num2>num1):
+#     print("num3 is greatest")
+
+# if(num1>num2):
+#     if(num1>num3):
+#         print("num1 is the greatest")
+# elif(num2>num1):
+#
+
+
+
+
+
+# marks=eval(input("ENTER THE MARKS"))
+
+#     print("THE STUDENT GOT 0 GRADE ")
+# elif(marks>74):
+#     print("THE STUDENT GOT A+")
+# elif(marks>65):
+#     print("the student got A")
+# elif(marks>55):
+#     print("the student got B+")
+# elif(marks>65):
+#     print("the student got B")
+# marks in range (85,100)
+# print("the student got O")
+# marks in range (75,85)
+# print("the student got A+")
+# marks in range (65,74)
+# print("the student got A")
+# marks in range (55,64)
+# print("the student got B+")
+# marks in range (45,54)
+# print("the student got B")
+# marks in range (35,44)
+# print("the student got C")
+
+# x=eval(input("enter the lower range"))
+# y=eval(input("enter the upper range"))
+#
+#
+# while(x<=y):
+#     i=2
+#     while(i<x):
+#         if(x%i==0):
+#             break
+#         i=i+1
+# else:
+#     print(x)
+# x=x+1
+
+
+
+# for i in (1,2,3,4,5,6,6,7):
+#     print(i)
+
+
+# def factorial(i):
+#     if(i==1 or i==0):
+#         return 1
+#     else:
+#         return i*factorial(i-1)
+#
+# num=eval(input("enter the range"))
+# for i in range(1,num+1):
+#     sum=1/factorial(i)
+
+
+
+
+# print("the value is %d"%251424)
+# print("the value is %6d"%-134)
+# print("the value is %06d"%1)
+
+
+
+# str1="OKAY"
+# str2="Bye"
+# print(str1+str2)
+# print(str1*2)
+#
+# for i in str1:
+#     print(i)
+
+
+
+# # for i
+# #     print(i)
+# i=1
+# str10="OKAY"
+# while(i!=str10):
+#     print(str10)
+#     str10=str10+str10
+# if()
+
+
+
+# x="qwertyuio"
+# # str=x[2:5:2]
+# # print(str)
+# str2=x[0:10:3]
+# # print(str2)
+#
+# str1=eval(input("enter the string"))
+# str2=str1[
+# if(str1==str2):
+#     print("string is palindrome ")
+# else:
+#     print("the string is not palindrome")
+
+
+
+# str1="AABBCCDDAA"
+# st4=str1.index("A")
+# print(st4)
+
+# str="asdfasdfasdfasf"
+# start=0
+# subst="a"
+# x=str.find(subst,start)
+# while(x!=-1):
+#     print(x)
+#     start=x+len(subst)
+#     x=str.find(subst,start)
+
+#
+# str=("adfsdgfhk")
+# str5="ASDFGHJKL"
+# str2=str.upper()
+# print(str2)
+# str3=str.title()
+# str4=str5.lower()
+# print(str3)
+# print(str4)
+
+
+# str=("asdgf asdf asdfgh sdfghj")
+# str2=str.split()
+# print(str2)
+# str3=str.split('/')
+# str4=
+
+# name=input("enter name: ")
+
+
+# st1=input("enter the string 1 : ")
+# st2=input("enter the string 2 : ")
+# if(sorted(st1)==sorted(st2)):
+#     print("Is a anagram")
+# else:
+#     print("not an anagram")
+
+
+
+# st1=input("enter the string")
+# st2=input("enter teh 2nd string")
+# x=sorted(st1)
+# y=sorted(st2)
+# print(x)
+# print(y)
+# xyz=st1.join(x)
+# print(xyz)
+# zyx=st2.join(y)
+# print(zyx)
+
+
+
+# str=input("enter the string")
+# str2=str[ : : -1]
+# print(str2)
+
+
+# st="hello how are you?"
+# st2=st[ : :-1]
+# print(st2)
+
+
+# a=input("ENTER THE STRING")
+
+
+
+# a=input("ENTER THE STRING")
+# for i in a:
+#     st=a.count(i)
+#     print(st)
+# for j in st:
+#     if j not in st:
+#         stdd
